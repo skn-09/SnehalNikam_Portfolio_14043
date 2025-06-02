@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snehal Nikam - Personal Portfolio</title>
+    <meta name="description" content="Professional portfolio showcasing skills, projects and experience">
+    <meta name="keywords" content="portfolio, web developer, skills, projects, contact">
+    <meta property="og:title" content="Snehal Nikam - Personal Portfolio">
+    <meta property="og:description" content="Professional portfolio showcasing skills, projects and experience">
+    <meta name="twitter:title" content="Snehal Nikam - Personal Portfolio">
+    <meta name="twitter:description" content="Professional portfolio showcasing skills, projects and experience">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <script src="./Js/script.js"></script>
+</head>
+
+<body>
+    <nav class="navbar" data-name="navbar" data-file="index.html">
+        <div class="nav-container">
+            <div class="nav-logo">Snehal Nikam</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+        </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero" data-name="hero-section" data-file="index.html">
+            <div class="hero-container">
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <img src="./Resorces/snehal.jpg" alt="Snehal Nikam">
+                        <div class="image-border"></div>
+                    </div>
+                </div>
+                <div class="hero-content">
+                    <h1 class="hero-title">Snehal Nikam</h1>
+                    <p class="hero-subtitle">
+                        I'm <span id="animatedText" class="animated-text">Front End Developer</span>
+                    </p>
+                    <a href="#contact" class="cta-button">
+                        <span>Get In Touch</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="./Resorces/Snehal-Resume.pdf" target="_blank" rel="noopener noreferrer"
+                        download="Snehal-Resume.pdf">
+                        <button>Download My Resume</button>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about" data-name="about-section" data-file="index.html">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I'm a passionate front-end developer with expertise in modern web technologies. I love
+                            creating innovative solutions and bringing ideas to life through code.</p>
+                        <p>I specialize in creating responsive,
+                            user-friendly applications that deliver exceptional user experiences.</p>
+                        <p>I've been constantly learning and
+                            adapting to new technologies to stay current in this ever-evolving field.</p>
+                        <p>I also worked in the field of Data Analysis as model training and handling the datasets.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills" data-name="skills-section" data-file="index.html">
+            <div class="container">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills-grid" id="skillsContainer">
+                    <div class="skill">
+                        <h2>HTML</h2>
+                        <div class="skill-bar html">
+                            <span class="percentage">80%</span>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h2>CSS</h2>
+                        <div class="skill-bar css">
+                            <span class="percentage">70%</span>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h2>JavaScript</h2>
+                        <div class="skill-bar js">
+                            <span class="percentage">60%</span>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h2>Python</h2>
+                        <div class="skill-bar python">
+                            <span class="percentage">90%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="education" data-name="education-section" data-file="index.html">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <div class="education-item" data-year="2025">
+                    <h3>Post Graduate Diploma(PGD)</h3>
+                    <h5>Big Data Analytics</h5>
+                    <p>Institute: Centre for Development of Advanced Computing(CDAC),Mumbai</p>
+                    <p>Year: 2024-2025</p>
+                </div>
+                <div class="education-item" data-year="2025">
+                    <h3>Bachelor of Technology(B.Tech)</h3>
+                    <h5>Information Technology</h5>
+                    <p>Institute: SVKM's Institute of Technology</p>
+                    <p>Year: 2020-2024</p>
+                    <div class="details">
+                        <p>Specialization in Information Technology.</p>
+                    </div>
+                </div>
+                <div class="education-item" data-year="2022">
+                    <h3>HSC(12th)</h3>
+                    <h5>Science</h5>
+                    <p>Jaihind Highschool and Junior College</p>
+                    <p>Year: 2020</p>
+                </div>
+                <div class="education-item" data-year="2022">
+                    <h3>SSC(10th)</h3>
+                    <p>Jaihind Highschool and Junior College</p>
+                    <p>Year: 2018</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects" data-name="projects-section" data-file="index.html">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="education-item" data-year="2025">
+                    <h3>Network Intrusion Detection System using Machine Learning</h3>
+                    <h5>Python,Scikit learn,pandas,Numpy,AWS code-pipeline,PowerBI</h5>
+                    <p>The project aims to detect and classify network intrusion in real time.</p>
+                </div>
+                <div class="education-item" data-year="2025">
+                    <h3>ICICI Stock Data Analysis</h3>
+                    <h5>Apache Spark,Python,Pandas,Seaborn,SparkSQL</h5>
+                    <p>Analyzed ICICI's historical stock data to identify trends,patterns and insights.Evaluted stock
+                        behaviour during significant events.</p>
+                </div>
+                <div class="education-item" data-year="2025">
+                    <h3>IMDB Movie Data Analysis</h3>
+                    <h5>MySQL</h5>
+                    <p>Analyzed a comprehensive IMDB movie dataset using SQL and integrated MySQL with PowerBI for data
+                        visualization.It offering valuable insights for decision-makers in the film industry.</p>
+                </div>
+                <div class="projects-grid" id="projectsContainer"></div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact" data-name="contact-section" data-file="index.html">
+            <div class="container">
+                <h2 class="section-title">Contact Me</h2>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="number" id="phone" name="phone" placeholder="Contact Number" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" data-name="footer" data-file="index.html">
+        <div class="container">
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/snehal-nikam-234a3621b" class="social-link"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/skn-09" class="social-link"><i class="fab fa-github"></i></a>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="./CSS/styles.css"></script>
+</body>
+
+</html>
